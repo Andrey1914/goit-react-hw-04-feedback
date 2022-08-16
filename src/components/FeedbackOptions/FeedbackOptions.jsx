@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Box } from 'components/Box';
-import { Btn } from 'components/Button/ButtonStyled';
+import { StyledButton } from 'components/Button/ButtonStyled';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
@@ -14,9 +14,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
       {options.map(option => {
         return (
           <Box as="li" key={option}>
-            <Btn type="button" onClick={onLeaveFeedback}>
-              {option}
-            </Btn>
+            <StyledButton onClick={onLeaveFeedback}>{option}</StyledButton>
           </Box>
         );
       })}

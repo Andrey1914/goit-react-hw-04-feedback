@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Btn = styled.button`
+export const StyledButton = styled.button`
   width: ${p => p.theme.space[7]}px;
   height: ${p => p.theme.space[5]}px;
   border-radius: ${p => p.theme.radii.normal};
