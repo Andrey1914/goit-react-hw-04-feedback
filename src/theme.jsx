@@ -9,6 +9,7 @@ export const theme = {
     secondary: '#05a',
     accent: '#609',
     muted: '#ccc',
+    lightMuted: '#ededed',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
@@ -37,7 +38,9 @@ export const theme = {
   },
   radii: {
     none: '0',
+    small: '2px',
     normal: '4px',
+    big: '8px',
     round: '50%',
   },
 };
