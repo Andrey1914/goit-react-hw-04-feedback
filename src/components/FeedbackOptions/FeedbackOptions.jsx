@@ -7,9 +7,11 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
     <Box
       as="ul"
       display="flex"
-      justifyContent="center"
+      justifyContent="space-around"
       alignItems="center"
       gridGap={4}
+      pb={4}
+      borderBottom="normal"
     >
       {options.map(option => {
         return (

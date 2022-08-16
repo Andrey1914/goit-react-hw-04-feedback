@@ -4,9 +4,10 @@ export const StyledButton = styled.button`
   width: ${p => p.theme.space[7]}px;
   height: ${p => p.theme.space[5]}px;
   border-radius: ${p => p.theme.radii.small};
-  padding: ${p => p.theme.space[2]}px;
-  padding-left: ${p => p.theme.space[4]}px;
-  padding-right: ${p => p.theme.space[4]}px;
+  padding: 0;
+  /* padding: ${p => p.theme.space[2]}px; */
+  /* padding-left: ${p => p.theme.space[4]}px;
+  padding-right: ${p => p.theme.space[4]}px; */
   cursor: pointer;
   border: ${p => p.theme.borders.none};
   box-shadow: 0px 3px 5px 1px rgba(45, 90, 124, 0.2);
@@ -16,7 +17,7 @@ export const StyledButton = styled.button`
   :hover,
   :focus {
     background-color: rgb(0, 91, 157);
-    color: ${p => p.theme.colors.textHover};
+    color: ${p => p.theme.colors.muted};
     transform: scale(1.08);
   }
 `;
